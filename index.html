@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Memory game</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	<link rel="shortcut icon" href="img/logo.ico">	
+
+</head>
+
+<body>
+	<div class="comenzar">
+		<form>
+			<input class="ingresarNombre" type="text" placeholder="Ingrese su nombre">
+		</form>
+
+		<div class="botonComenzar">Comenzar</div>
+	</div>
+
+
+
+	<div class="con_principal">
+		
+		<div class="contenedor ocultar" id="contenedor_1">
+
+
+			<table>
+				<tr id="fila1">
+					<td id="col1">
+						<div>
+							<img class="carta frente" src="img/c0.png" alt="1">
+							<div id="img1" class="carta atras ocultar"></div>
+						</div>
+					</td>
+
+					<td id="col2">
+						<div>
+							<img class="carta frente" src="img/c0.png" alt="2">
+							<div id="img2" class="carta atras ocultar"></div>
+						</div>
+					</td>
+
+					<td id="col3">
+						<div>
+							<img class="carta frente" src="img/c0.png" alt="3">
+							<div id="img3" class="carta atras ocultar"></div>
+						</div>
+					</td>
+
+					<td id="col4">
+						<div>
+							<img class="carta frente" src="img/c0.png" alt="4">
+							<div id="img4" class="carta atras ocultar"></div>
+						</div>
+					</td>
+				</tr>
+
+				<tr id="fila2">
+					<td id="col1">
+						<div>
+							<img class="carta frente" src="img/c0.png" alt="5">
+							<div id="img5" class="carta atras ocultar"></div>
+						</div>
+					</td>
+
+					<td id="col2">
+						<div>
+							<img class="carta frente" src="img/c0.png" alt="6">
+							<div id="img6" class="carta atras ocultar"></div>
+						</div>
+					</td>
+
+					<td id="col3">
+						<div>
+							<img class="carta frente" src="img/c0.png" alt="7">
+							<div id="img7" class="carta atras ocultar"></div>
+						</div>
+					</td>
+
+					<td id="col4">
+						<div>
+							<img class="carta frente" src="img/c0.png" alt="8">
+							<div id="img8" class="carta atras ocultar"></div>
+						</div>
+					</td>
+
+				</tr>
+
+				<tr id="fila3">
+					<td id="col1">
+						<div>
+							<img class="carta frente" src="img/c0.png" alt="9">
+							<div id="img9" class="carta atras ocultar"></div>
+						</div>
+					</td>
+
+					<td id="col2">
+						<div>
+							<img class="carta frente" src="img/c0.png" alt="10">
+							<div id="img10" class="carta atras ocultar"></div>
+						</div>
+					</td>
+
+					<td id="col3">
+						<div>
+							<img class="carta frente" src="img/c0.png" alt="11">
+							<div id="img11" class="carta atras ocultar"></div>
+						</div>
+					</td>
+
+					<td id="col4">
+						<div>
+							<img class="carta frente" src="img/c0.png" alt="12">
+							<div id="img12" class="carta atras ocultar"></div>
+						</div>
+					</td>
+
+				</tr>
+
+				<tr id="fila4">
+					<td id="col1">
+						<div>
+							<img class="carta frente" src="img/c0.png" alt="13">
+							<div id="img13" class="carta atras ocultar"></div>
+						</div>
+					</td>
+
+					<td id="col2">
+						<div>
+							<img class="carta frente" src="img/c0.png" alt="14">
+							<div id="img14" class="carta atras ocultar"></div>
+						</div>
+					</td>
+
+					<td id="col3">
+						<div>
+							<img class="carta frente" src="img/c0.png" alt="15">
+							<div id="img15" class="carta atras ocultar"></div>
+						</div>
+					</td>
+
+					<td id="col4">
+						<div>
+							<img class="carta frente" src="img/c0.png" alt="16">
+							<div id="img16" class="carta atras ocultar"></div>
+						</div>
+					</td>
+
+				</tr>
+			</table>
+
+
+		</div>
+
+		<div class="contenedor ocultar" id="contenedor_2">
+			<br><h2 class="nombre">Nombre del jugador:</h2><br>
+			<h2 class="paresEncontrados">Pares encontrados: 0/8</h2>
+			<h2 class="ganaste ocultar">HAS GANADO!</h2>
+		</div>
+
+	</div>
+
+	<footer class="ocultar">
+		<button class="botonReiniciar">Volver a comenzar</button>
+	</footer>
+
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="js/main.js"></script>
+</html>
