@@ -133,7 +133,7 @@ $('.botonComenzar').on('click',function comenzar(){
 	if (nombre!="") {
 		$('.nombre').html('Nombre del jugador: '+nombre.toUpperCase())
 	}else{
-		$('.nombre').html('Nombre del jugador: JUGADOR1')
+		$('.nombre').html('Nombre del jugador: JUGADOR')
 	}
 
 	$('.comenzar').addClass('ocultar')
